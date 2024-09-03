@@ -328,10 +328,13 @@ CMakeFiles/sfml.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  ../include/gravitySource.cpp \
   ../include/particle.cpp
 
 
 ../include/particle.cpp:
+
+../include/gravitySource.cpp:
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
