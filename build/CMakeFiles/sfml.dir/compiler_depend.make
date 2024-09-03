@@ -3,17 +3,7 @@
 
 CMakeFiles/sfml.dir/main.cpp.o: ../main.cpp \
   /usr/include/stdc-predef.h \
-  /usr/include/SFML/Graphics.hpp \
-  /usr/include/SFML/Window.hpp \
-  /usr/include/SFML/System.hpp \
-  /usr/include/SFML/Config.hpp \
-  /usr/include/SFML/System/Clock.hpp \
-  /usr/include/SFML/System/Export.hpp \
-  /usr/include/SFML/System/Time.hpp \
-  /usr/include/SFML/System/Err.hpp \
-  /usr/include/c++/11/ostream \
-  /usr/include/c++/11/ios \
-  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/iostream \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
   /usr/include/features.h \
@@ -26,6 +16,9 @@ CMakeFiles/sfml.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/c++/11/pstl/pstl_config.h \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/iosfwd \
   /usr/include/c++/11/bits/stringfwd.h \
   /usr/include/c++/11/bits/memoryfwd.h \
   /usr/include/c++/11/bits/postypes.h \
@@ -186,6 +179,17 @@ CMakeFiles/sfml.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/bits/istream.tcc \
+  ../include/particle.h \
+  /usr/include/SFML/Graphics.hpp \
+  /usr/include/SFML/Window.hpp \
+  /usr/include/SFML/System.hpp \
+  /usr/include/SFML/Config.hpp \
+  /usr/include/SFML/System/Clock.hpp \
+  /usr/include/SFML/System/Export.hpp \
+  /usr/include/SFML/System/Time.hpp \
+  /usr/include/SFML/System/Err.hpp \
   /usr/include/SFML/System/FileInputStream.hpp \
   /usr/include/SFML/System/InputStream.hpp \
   /usr/include/SFML/System/NonCopyable.hpp \
@@ -324,15 +328,10 @@ CMakeFiles/sfml.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/c++/11/iostream \
-  /usr/include/c++/11/istream \
-  /usr/include/c++/11/bits/istream.tcc \
-  ../include/particle.h
+  ../include/particle.cpp
 
 
-/usr/include/c++/11/bits/istream.tcc:
-
-/usr/include/c++/11/istream:
+../include/particle.cpp:
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
@@ -428,13 +427,23 @@ CMakeFiles/sfml.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/SFML/Window/Touch.hpp:
 
+/usr/include/SFML/Window/Joystick.hpp:
+
+/usr/include/c++/11/bits/stl_construct.h:
+
+/usr/include/c++/11/bits/cxxabi_forced.h:
+
+/usr/include/c++/11/bits/basic_string.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
 /usr/include/SFML/Graphics/RenderTexture.hpp:
 
 /usr/include/c++/11/backward/binders.h:
 
 /usr/include/c++/11/algorithm:
-
-/usr/include/c++/11/bits/cxxabi_forced.h:
 
 /usr/include/c++/11/bits/locale_classes.h:
 
@@ -474,12 +483,6 @@ CMakeFiles/sfml.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/SFML/System/Vector3.inl:
 
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/c++/11/bits/basic_string.h:
-
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/include/SFML/System/MemoryInputStream.hpp:
@@ -514,33 +517,35 @@ CMakeFiles/sfml.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/clocale:
 
-/usr/include/SFML/System/Export.hpp:
-
 /usr/include/c++/11/bits/ostream.tcc:
+
+/usr/include/SFML/System/Export.hpp:
 
 /usr/include/SFML/System/Thread.hpp:
 
 /usr/include/c++/11/new:
 
-/usr/include/c++/11/bits/stream_iterator.h:
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/c++/11/bits/cpp_type_traits.h:
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
-/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+/usr/include/wchar.h:
 
-/usr/include/SFML/Graphics/RectangleShape.hpp:
+/usr/include/c++/11/bits/cxxabi_init_exception.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
+/usr/include/c++/11/string:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
-/usr/include/c++/11/bits/stl_iterator_base_types.h:
+/usr/include/c++/11/tuple:
 
-/usr/include/c++/11/cstdlib:
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-/usr/include/c++/11/map:
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
 
-/usr/include/SFML/System/Utf.hpp:
+/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
+
+/usr/include/c++/11/exception:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
@@ -550,79 +555,13 @@ CMakeFiles/sfml.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
-/usr/include/ctype.h:
-
-/usr/include/c++/11/locale:
-
 /usr/include/SFML/System/ThreadLocalPtr.inl:
 
 /usr/include/c++/11/debug/debug.h:
 
 /usr/include/features-time64.h:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/c++/11/cmath:
-
-/usr/include/c++/11/bits/allocator.h:
-
-/usr/include/c++/11/pstl/pstl_config.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
-/usr/include/c++/11/debug/assertions.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
-/usr/include/c++/11/exception:
-
-/usr/include/c++/11/tr1/gamma.tcc:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/c++/11/iostream:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/SFML/Graphics/Glyph.hpp:
-
-/usr/include/c++/11/bits/node_handle.h:
-
-/usr/include/c++/11/ext/numeric_traits.h:
-
-/usr/include/features.h:
-
-/usr/include/SFML/System/Sleep.hpp:
-
 /usr/include/c++/11/bits/stringfwd.h:
-
-/usr/include/c++/11/bits/stl_function.h:
-
-/usr/include/c++/11/bits/memoryfwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/asm-generic/errno-base.h:
-
-/usr/include/linux/errno.h:
-
-/usr/include/c++/11/functional:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
@@ -640,11 +579,71 @@ CMakeFiles/sfml.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/string_view.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+/usr/include/x86_64-linux-gnu/bits/time64.h:
 
-/usr/include/x86_64-linux-gnu/asm/errno.h:
+/usr/include/c++/11/ext/type_traits.h:
 
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/usr/include/c++/11/pstl/pstl_config.h:
+
+/usr/include/c++/11/cmath:
+
+/usr/include/c++/11/bits/allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/11/bits/alloc_traits.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/c++/11/bits/memoryfwd.h:
+
+/usr/include/c++/11/bits/stl_function.h:
+
+/usr/include/c++/11/ext/numeric_traits.h:
+
+/usr/include/features.h:
+
+/usr/include/SFML/System/Sleep.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/asm-generic/errno-base.h:
+
+/usr/include/linux/errno.h:
+
+/usr/include/c++/11/functional:
+
+/usr/include/c++/11/tr1/gamma.tcc:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/SFML/Graphics/Glyph.hpp:
+
+/usr/include/c++/11/iostream:
+
+/usr/include/c++/11/bits/node_handle.h:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+
+/usr/include/c++/11/debug/assertions.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/c++/11/bits/ostream_insert.h:
 
 /usr/include/c++/11/tr1/legendre_function.tcc:
 
@@ -666,15 +665,35 @@ CMakeFiles/sfml.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/unique_ptr.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/c++/11/type_traits:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/SFML/Window/Context.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/c++/11/cwchar:
 
 /usr/include/SFML/Graphics/Glsl.inl:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
-/usr/include/c++/11/cwchar:
-
 /usr/include/c++/11/bits/stl_algobase.h:
+
+/usr/include/c++/11/bits/nested_exception.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/math.h:
 
@@ -686,61 +705,45 @@ CMakeFiles/sfml.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/stl_tempbuf.h:
 
-/usr/include/c++/11/unordered_map:
+/usr/include/SFML/Graphics/RectangleShape.hpp:
 
-/usr/include/SFML/System/Time.hpp:
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+/usr/include/c++/11/bits/stl_iterator_base_types.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+/usr/include/c++/11/cstdlib:
 
-/usr/include/c++/11/ext/type_traits.h:
+/usr/include/c++/11/map:
 
-/usr/include/x86_64-linux-gnu/bits/time64.h:
+/usr/include/SFML/System/Utf.hpp:
 
-../include/particle.h:
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
 
-/usr/include/c++/11/ctime:
+/usr/include/c++/11/iterator:
 
-/usr/include/SFML/System/Err.hpp:
+/usr/include/c++/11/bits/range_access.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
+
+/usr/include/SFML/Window/Cursor.hpp:
 
 /usr/include/c++/11/bits/exception_ptr.h:
 
 /usr/include/c++/11/ext/string_conversions.h:
 
-/usr/include/wchar.h:
+/usr/include/SFML/System/Err.hpp:
 
-/usr/include/c++/11/bits/cxxabi_init_exception.h:
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
 
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+/usr/include/SFML/Graphics/PrimitiveType.hpp:
 
-/usr/include/c++/11/string:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
 
-/usr/include/c++/11/bits/ostream_insert.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
-/usr/include/SFML/Window/Context.hpp:
-
-/usr/include/c++/11/type_traits:
-
-/usr/include/c++/11/tuple:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/include/c++/11/bits/nested_exception.h:
-
-/usr/include/SFML/Config.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/SFML/Window/Cursor.hpp:
+/usr/include/c++/11/string_view:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
 
@@ -764,33 +767,21 @@ CMakeFiles/sfml.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/streambuf:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/usr/include/c++/11/iterator:
-
-/usr/include/c++/11/bits/range_access.h:
-
 /usr/include/c++/11/iosfwd:
 
 /usr/include/c++/11/initializer_list:
 
-/usr/include/stdc-predef.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
 
-/usr/include/c++/11/bits/alloc_traits.h:
+/usr/include/c++/11/locale:
 
-/usr/include/c++/11/bits/stl_construct.h:
+/usr/include/ctype.h:
 
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+/usr/include/c++/11/bits/stream_iterator.h:
 
-/usr/include/SFML/Graphics/PrimitiveType.hpp:
+/usr/include/c++/11/bits/cpp_type_traits.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
-
-/usr/include/c++/11/string_view:
+/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
 /usr/include/c++/11/bits/functional_hash.h:
 
@@ -878,9 +869,27 @@ CMakeFiles/sfml.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
+/usr/include/SFML/Window/Keyboard.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
+
+/usr/include/c++/11/istream:
+
+/usr/include/c++/11/bits/istream.tcc:
+
+/usr/include/c++/11/ctime:
+
+../include/particle.h:
+
+/usr/include/SFML/Config.hpp:
+
+/usr/include/c++/11/unordered_map:
+
+/usr/include/SFML/System/Time.hpp:
 
 /usr/include/SFML/Window.hpp:
 
@@ -950,9 +959,17 @@ CMakeFiles/sfml.dir/main.cpp.o: ../main.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
 
-/usr/include/SFML/Window/Joystick.hpp:
-
 /usr/include/c++/11/bits/locale_conv.h:
+
+/usr/include/SFML/Window/Event.hpp:
+
+/usr/include/c++/11/bits/codecvt.h:
+
+/usr/include/c++/11/bits/basic_ios.tcc:
+
+/usr/include/c++/11/bits/enable_special_members.h:
+
+/usr/include/SFML/System/String.inl:
 
 /usr/include/SFML/System/ThreadLocal.hpp:
 
@@ -969,17 +986,3 @@ CMakeFiles/sfml.dir/main.cpp.o: ../main.cpp \
 /usr/include/c++/11/bits/char_traits.h:
 
 /usr/include/SFML/Window/GlResource.hpp:
-
-/usr/include/c++/11/bits/codecvt.h:
-
-/usr/include/c++/11/bits/basic_ios.tcc:
-
-/usr/include/c++/11/bits/enable_special_members.h:
-
-/usr/include/SFML/System/String.inl:
-
-/usr/include/SFML/Window/Event.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
-
-/usr/include/SFML/Window/Keyboard.hpp:
