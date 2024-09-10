@@ -1,3 +1,0 @@
-/home/fdeedat/sfml/build/CMakeFiles/sfml.dir
-/home/fdeedat/sfml/build/CMakeFiles/edit_cache.dir
-/home/fdeedat/sfml/build/CMakeFiles/rebuild_cache.dir
