@@ -8,6 +8,7 @@ std::vector <gravitySource> sList;
 
 int main()
 {
+    window.setFramerateLimit(120);
     gravitySource s1(200.0f,400.0f,15.0f); sList.push_back(s1);
     gravitySource s2(600.0f,400.0f,15.0f); sList.push_back(s2);
 
@@ -39,7 +40,8 @@ int main()
 
         while (window.pollEvent(event))
         {
-            if (event.type == sf::Event::Closed) window.close(); //closes the window
+            if (event.type == sf::Event::Closed || sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)) window.close(); //closes the window
+            // if (sf::Keyboard::Escape)
         }
     }
     return 0;
